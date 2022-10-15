@@ -5,9 +5,9 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <div>
-      <Link href={'/tanstack'}>Tanstack Viruall</Link><br/>
-      <Link href={'/virtuosu'}>Virtuoso</Link><br/>
-      <Link href={'/window'}>React Window</Link><br/>
+      <Link href={'/tanDemo'}>Tanstack Viruall</Link><br/>
+      <Link href={'/virtuDemo'}>Virtuoso</Link><br/>
+      <Link href={'/windowDemo'}>React Window</Link><br/>
     </div>
   )
 }
